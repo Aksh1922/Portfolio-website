@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500">
+  <rect width="900" height="500" fill="#f7f2df"/>
+  <rect x="18" y="18" width="864" height="464" fill="none" stroke="#626b43" stroke-width="4"/>
+  <rect x="32" y="32" width="836" height="436" fill="none" stroke="#d5a94d" stroke-width="2"/>
+  <circle cx="450" cy="112" r="38" fill="#d5a94d" stroke="#626b43" stroke-width="3"/>
+  <path d="M450 83 L459 103 L481 106 L465 122 L469 145 L450 134 L431 145 L435 122 L419 106 L441 103 Z" fill="#f7f2df"/>
+  <text x="450" y="196" font-family="Georgia,serif" font-size="21" fill="#626b43" text-anchor="middle" letter-spacing="5">CERTIFICATION RECORD</text>
+  <text x="450" y="250" font-family="Georgia,serif" font-size="34" fill="#24261c" text-anchor="middle">Fundamentals of UI/UX Design</text>
+  <text x="450" y="294" font-family="Arial,sans-serif" font-size="22" fill="#626b43" text-anchor="middle">Microsoft</text>
+  <line x1="290" y1="326" x2="610" y2="326" stroke="#d5a94d" stroke-width="3"/>
+  <text x="450" y="366" font-family="Arial,sans-serif" font-size="15" fill="#626b43" text-anchor="middle">Illustrative portfolio card — not the original certificate</text>
+</svg>

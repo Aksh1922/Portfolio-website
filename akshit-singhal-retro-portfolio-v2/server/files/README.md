@@ -1,0 +1,1 @@
+Place your real files here named exactly `resume.pdf` and `resume.docx`. They are intentionally not fabricated or committed as fake resumes. The `.gitignore` allows you to force-add them if you choose to keep them in your repository; consider privacy before committing personal contact details.
