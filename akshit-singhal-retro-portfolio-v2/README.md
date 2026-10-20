@@ -43,14 +43,14 @@ Set `MONGO_URI` in `server/.env`. If it is missing, the API still starts, but co
 2. Add the backend host's IP access as appropriate for your deployment environment.
 3. Put the connection string in the backend environment as `MONGO_URI`. Never expose it in the frontend.
 
-### 2. Backend on Render or Railway
+### 2. Backend on Render
 1. Push this folder to a GitHub repository.
 2. Create a Node web service with **root directory** `server`, build command `npm install`, and start command `npm start`.
 3. Configure `MONGO_URI`, `CLIENT_URL` (your exact deployed frontend origin), and `NODE_ENV=production`.
 4. Optional email notification environment variables are documented in `server/.env.example`.
 5. Verify the deployed `/health` endpoint returns `{ "status": "ok" }`.
 
-### 3. Frontend on Vercel or Netlify
+### 3. Frontend on Vercel
 1. Import the same repository and set **root directory** to `client`.
 2. Build command: `npm run build`; output directory: `dist`.
 3. Set `VITE_API_URL` to the deployed API base URL, with no trailing slash.
@@ -64,9 +64,8 @@ Set `MONGO_URI` in `server/.env`. If it is missing, the API still starts, but co
 - The portrait uses an initials avatar; replace it with a real photo only if you want to.
 - Add a privacy notice and consider abuse monitoring before collecting public messages.
 
-## Main customization file
-`client/src/data/portfolio.js`
 
 
-## Visual update
-The desktop now opens with an animated welcome card featuring your campus photo, intro, and quick actions. The desktop icons use a two-column layout on larger screens and a compact row on mobile. Keep `client/public/akshit-photo.jpg` in place to show your photo.
+## URL's for frontend and backend deployment
+FRONTEND - https://portfolio-website-tau-ten-40.vercel.app/
+BACKEND - https://portfolio-website-655a.onrender.com
